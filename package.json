@@ -1,0 +1,35 @@
+{
+  "name": "raddec-relay-udp",
+  "homepage": "https://github.com/reelyactive/raddec-relay-udp/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Relays raddecs to and from remote servers via UDP.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "raddec",
+    "relay",
+    "UDP"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/raddecrelayudp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/raddec-relay-udp.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/raddec-relay-udp/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
