@@ -91,13 +91,14 @@ Options
 
 __raddec-relay-udp__ supports the following options:
 
-| Property              | Default | Description                            | 
-|:----------------------|:--------|:---------------------------------------|
-| sources               | []      | Array of sources, each an object with address and port properties (default port is 50001) |
-| targets               | []      | Array of targets, each an object with address and port properties (default port is 50001) |
-| raddecEncodingOptions | { includeTimestamp: true, includePackets: true } | Options for encoding raddecs sent to targets |
-| enableForwarding      | true    | Forward raddecs from sources to targets (if both are present) |
-| raddecHandler         | null    | Function to call when source raddec received |
+| Property               | Default | Description                            | 
+|:-----------------------|:--------|:---------------------------------------|
+| sources                | []      | Array of sources, each an object with address and port properties (default port is 50001) |
+| targets                | []      | Array of targets, each an object with address and port properties (default port is 50001) |
+| raddecEncodingOptions  | { includeTimestamp: true, includePackets: true } | Options for encoding raddecs sent to targets |
+| enableForwarding       | true    | Forward raddecs from sources to targets (if both are present) |
+| raddecHandler          | null    | Function to call when source raddec received |
+| dnsRefreshMilliseconds | 60000   | Interval to resolve DNS for target hostnames |
 
 
 License
