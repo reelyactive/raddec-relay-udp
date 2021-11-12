@@ -12,7 +12,7 @@
     "relay",
     "UDP"
   ],
-  "version": "1.0.1",
+  "version": "1.1.0",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -25,7 +25,7 @@
     "url": "https://github.com/reelyactive/raddec-relay-udp.git"
   },
   "dependencies": {
-    "raddec": ">=0.2.0"
+    "raddec": "~0.2.8"
   },
   "devDependencies": {},
   "bugs": {
