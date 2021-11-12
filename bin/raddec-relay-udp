@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const RaddecRelayUdp = require('../lib/raddecrelayudp.js');
+
+const sources = [ { address: "0.0.0.0", port: 50001 } ];
+
+let relay = new RaddecRelayUdp({ sources: sources,
+                                 raddecHandler: handleRaddec });
+
+function handleRaddec(raddec) {
+  console.log(raddec);
+}

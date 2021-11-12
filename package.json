@@ -17,6 +17,9 @@
     "node": ">=6.0.0"
   },
   "main": "./lib/raddecrelayudp.js",
+  "scripts": {
+    "start": "node bin/raddec-relay-udp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/reelyactive/raddec-relay-udp.git"

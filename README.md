@@ -14,6 +14,16 @@ Installation
     npm install raddec-relay-udp
 
 
+Quick Start
+-----------
+
+Clone this repository, install package dependencies with `npm install`, and then from the root folder run at any time:
+
+    npm start
+
+__raddec-relay-udp__ will listen for raddecs on port 50001 and print these to the console.
+
+
 Hello raddec-relay-udp!
 -----------------------
 
